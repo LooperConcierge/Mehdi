@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>378204431303-9qb1l8qp4oq1oumc06r1ilmm1tju425r.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.378204431303-9qb1l8qp4oq1oumc06r1ilmm1tju425r</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhSH5bCz3AvqRNW6W7oNbcIobH2IE0h3M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>378204431303</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.LooperTraveler.looper</string>
+	<key>PROJECT_ID</key>
+	<string>looperapp-cb015</string>
+	<key>STORAGE_BUCKET</key>
+	<string>looperapp-cb015.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:378204431303:ios:c89d5c547ab2fe00</string>
+	<key>DATABASE_URL</key>
+	<string>https://looperapp-cb015.firebaseio.com</string>
+</dict>
+</plist>

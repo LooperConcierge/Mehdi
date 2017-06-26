@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="Chat" representedClassName="Chat" syncable="YES">
+        <attribute name="chatID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currentUserUid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unreadCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="chatMessages" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Messages" inverseName="messageOfChat" inverseEntity="Messages" syncable="YES"/>
+        <relationship name="participants" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="ChatParticipants" inverseName="chat" inverseEntity="ChatParticipants" syncable="YES"/>
+    </entity>
+    <entity name="ChatParticipants" representedClassName="ChatParticipants" syncable="YES">
+        <attribute name="cEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chatCreationDate" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilePic" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="chat" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Chat" inverseName="participants" inverseEntity="Chat" syncable="YES"/>
+    </entity>
+    <entity name="Messages" representedClassName="Messages" syncable="YES">
+        <attribute name="mFrom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="messageOfChat" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Chat" inverseName="chatMessages" inverseEntity="Chat" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="emailHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profilePic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="ChatParticipants" positionX="-54" positionY="-9" width="128" height="120"/>
+        <element name="Chat" positionX="-36" positionY="9" width="128" height="120"/>
+        <element name="Messages" positionX="-18" positionY="27" width="128" height="165"/>
+    </elements>
+</model>

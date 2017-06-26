@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9f844dcf-c9c5-e949-82a2-c657559f8570++1991",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "9f844dcf-c9c5-e949-82a2-c657559f8570++1991" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9f844dcf-c9c5-e949-82a2-c657559f8570++1991" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FD8E067B-DD12-4225-8BD7-B0CFF9E5F82B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9f844dcf-c9c5-e949-82a2-c657559f8570++1991" : "SVN_Looper\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Looper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SVN_Looper\/Looper.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.123:8088\/svn\/SandeepTeam",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9f844dcf-c9c5-e949-82a2-c657559f8570++1991"
+    }
+  ]
+}

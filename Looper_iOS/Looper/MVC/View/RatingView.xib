@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RatingView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UuG-ub-zBc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9xX-iR-HhY" customClass="RoundedView">
+                    <rect key="frame" x="40" y="251" width="295" height="147"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="147" id="XY9-Db-saq"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQ9-vw-tju" customClass="RoundedView">
+                    <rect key="frame" x="40" y="251" width="295" height="147"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0oQ-ro-JVP" customClass="TPFloatRatingView">
+                            <rect key="frame" x="15" y="18" width="265" height="49"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49" id="BXU-8O-F8P"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEk-h5-psG">
+                            <rect key="frame" x="0.0" y="92" width="295" height="55"/>
+                            <color key="backgroundColor" red="1" green="0.33333333329999998" blue="0.37254901959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="VPL-DU-P6a"/>
+                                <constraint firstAttribute="width" constant="295" id="m3s-bO-zP1"/>
+                            </constraints>
+                            <state key="normal" title="SUBMIT">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnSubmitPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="zTR-7k-SrE"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="0oQ-ro-JVP" firstAttribute="leading" secondItem="TQ9-vw-tju" secondAttribute="leading" constant="15" id="5Lc-iH-z83"/>
+                        <constraint firstItem="FEk-h5-psG" firstAttribute="top" secondItem="0oQ-ro-JVP" secondAttribute="bottom" constant="25" id="CbZ-aB-hJ5"/>
+                        <constraint firstItem="FEk-h5-psG" firstAttribute="centerX" secondItem="TQ9-vw-tju" secondAttribute="centerX" id="TfZ-gr-Dn6"/>
+                        <constraint firstItem="0oQ-ro-JVP" firstAttribute="top" secondItem="TQ9-vw-tju" secondAttribute="top" constant="18" id="Yya-QZ-jhG"/>
+                        <constraint firstAttribute="height" constant="147" id="Zbi-HF-0GJ"/>
+                        <constraint firstAttribute="trailing" secondItem="0oQ-ro-JVP" secondAttribute="trailing" constant="15" id="cmv-6w-swG"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGU-zt-aem" customClass="RoundedButton">
+                    <rect key="frame" x="321" y="236" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="HX9-ZY-C3s"/>
+                        <constraint firstAttribute="height" constant="30" id="bXf-92-0jv"/>
+                    </constraints>
+                    <state key="normal" image="close"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnCancelPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="mtU-MH-O0B"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9xX-iR-HhY" firstAttribute="leading" secondItem="TQ9-vw-tju" secondAttribute="leading" id="0VZ-em-Sua"/>
+                <constraint firstAttribute="bottom" secondItem="UuG-ub-zBc" secondAttribute="bottom" id="4AF-jn-t0d"/>
+                <constraint firstItem="aGU-zt-aem" firstAttribute="top" secondItem="TQ9-vw-tju" secondAttribute="top" constant="-15.5" id="5Dm-EQ-tcM"/>
+                <constraint firstItem="TQ9-vw-tju" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="6Wf-Dg-yLJ"/>
+                <constraint firstItem="UuG-ub-zBc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A1p-k6-o5f"/>
+                <constraint firstItem="9xX-iR-HhY" firstAttribute="trailing" secondItem="TQ9-vw-tju" secondAttribute="trailing" id="HaU-Uc-oH8"/>
+                <constraint firstItem="UuG-ub-zBc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Pl5-Dz-Jkx"/>
+                <constraint firstItem="9xX-iR-HhY" firstAttribute="bottom" secondItem="TQ9-vw-tju" secondAttribute="bottom" id="Rg6-Tc-bne"/>
+                <constraint firstItem="aGU-zt-aem" firstAttribute="trailing" secondItem="TQ9-vw-tju" secondAttribute="trailing" constant="16" id="YRj-0h-2c8"/>
+                <constraint firstItem="TQ9-vw-tju" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-9" id="azg-Hh-FR5"/>
+                <constraint firstAttribute="trailing" secondItem="TQ9-vw-tju" secondAttribute="trailing" constant="40" id="ejm-25-jmW"/>
+                <constraint firstAttribute="trailing" secondItem="UuG-ub-zBc" secondAttribute="trailing" id="pl9-cy-VCw"/>
+                <constraint firstItem="9xX-iR-HhY" firstAttribute="top" secondItem="TQ9-vw-tju" secondAttribute="top" id="w38-zc-0Ja"/>
+            </constraints>
+            <connections>
+                <outlet property="btnSubmit" destination="FEk-h5-psG" id="bf4-Cx-rQR"/>
+                <outlet property="viewRate" destination="0oQ-ro-JVP" id="YtQ-am-Rdm"/>
+            </connections>
+            <point key="canvasLocation" x="376.5" y="278.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="52" height="51"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

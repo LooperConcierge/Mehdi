@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  Looper
+
+  Created by hardik on 3/10/16.
+  Copyright © 2016 looper. All rights reserved.
+*/
+
+//Main.Storyboard
+
+//LandingVC
+
+"KEY_LOGIN" = "Iniciar sesión";
+"KEY_REGISTER" = "registro";
+"KEY_EXPLORE" = "Explorar";
+
+//LoginVC
+
+"KEY_EMAIL_ADDRESS" = "Dirección de correo electrónico";
+"KEY_PASSWORD" = "contraseña";
+"KEY_FORGOT_PASSWORD" = "Contraseña olvidada?";
+
+//ForgotPasswordVC
+
+"KEY_SUBMIT" = "SUBMIT";
+
+//SelectCityVC
+"KEY_SELECT_CITY" = "SELECT CITY";
+"KEY_SEARCH_LOCATION" = "Búsqueda de la ubicación";
+"KEY_CONTINUE" = "CONTINUAR";
+
+//SelectDateVC
+
+"KEY_SELECT_DATE" = "SELECT FECHA";
+"KEY_ARRIVE" = "Llegar";
+"KEY_DEPART" = "Salir";
+
+//SelectInterestVC
+
+"KEY_SELECT_INTEREST" = "interés";
+"KEY_START_SEARCHING" = "Comenzar búsqueda";
+"KEY_SELECT_ATLEASET" = "Seleccionar al menos tres";
+
+
+//Traveler.Storyboard
+
+//LooperDetailVC
+"KEY_ABOUTME" = "Acerca de mí";
+"KEY_LANGUAGES" = "Idiomas";
+"KEY_EXPERTISE" = "La experiencia";
+"KEY_INQUIRE" = "quién preguntar";
+"KEY_BOOK" = "libro";
+"KEY_DAILY" = "DIARIAMENTE";
+
+"KEY_HOW_BIG_PARTY" = "¿Cuán grande es su partido?";
+"KEY_CALL" = "CALL";
+"KEY_MESSAGE" = "MENSAJE";
+"KEY_VIEW_TRIP" = "viaje visión";
+"KEY_DAY" = "DIA";
+"KEY_PARTY_OF" = "partido de";
+"KEY_CONFIRMED" = "que haya confirmado!";
+
+//Looper.Storyboard
+
+"KEY_TRAVELER" = "Viajero";
+"KEY_REQUEST" = "Solicitud";
+"KEY_HISTORY" = "Historia";

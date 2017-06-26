@@ -1,0 +1,62 @@
+
+//Main.Storyboard
+//LandingVC
+
+"KEY_LOGIN" = "LOGIN";
+"KEY_REGISTER" = "REGISTER";
+"KEY_EXPLORE" = "EXPLORE";
+
+//LoginVC
+
+"KEY_EMAIL_ADDRESS" = "Email address";
+"KEY_PASSWORD" = "Password";
+"KEY_FORGOT_PASSWORD" = "Forgot password";
+
+//ForgotPasswordVC
+
+"KEY_SUBMIT" = "SUBMIT";
+
+//SelectCityVC
+"KEY_SELECT_CITY" = "SELECT CITY";
+"KEY_SEARCH_LOCATION" = "Search for location";
+"KEY_CONTINUE" = "CONTINUE";
+
+//SelectDateVC
+
+"KEY_SELECT_DATE" = "SELECT DATES";
+"KEY_ARRIVE" = "Arrive";
+"KEY_DEPART" = "Depart";
+
+//SelectInterestVC
+
+"KEY_SELECT_INTEREST" = "INTEREST";
+"KEY_START_SEARCHING" = "START SEARCHING";
+"KEY_SELECT_ATLEASET" = "Select atleast three";
+
+//Traveler.Storyboard
+
+//LooperDetailVC
+"KEY_ABOUTME" = "ABOUT ME";
+"KEY_LANGUAGES" = "LANGUAGES";
+"KEY_EXPERTISE" = "PASSIONS";
+"KEY_INQUIRE" = "INQUIRE";
+"KEY_BOOK" = "BOOK";
+"KEY_DAILY" = "DAILY";
+
+"KEY_HOW_BIG_PARTY" = "HOW BIG IS YOUR PARTY?";
+"KEY_CALL" = "CALL";
+"KEY_MESSAGE" = "MESSAGE";
+"KEY_VIEW_TRIP" = "VIEW TRIP";
+"KEY_DAY" = "DAY";
+"KEY_PARTY_OF" = "PARTY OF";
+"KEY_CONFIRMED" = "YOU ARE CONFIRMED!";
+
+
+//Looper.Storyboard
+//TravelerListinnViewController
+
+"KEY_TRAVELER" = "Travelers";
+"KEY_REQUEST" = "Requests";
+"KEY_HISTORY" = "History";
+
+

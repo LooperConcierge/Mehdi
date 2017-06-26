@@ -1,0 +1,60 @@
+//Main.Storyboard
+//LandingVC
+
+"KEY_LOGIN" = "LOGIN";
+"KEY_REGISTER" = "INSCRIT";
+"KEY_EXPLORE" = "EXPLORE";
+
+//LoginVC
+
+"KEY_EMAIL_ADDRESS" = "Adresse e-mail";
+"KEY_PASSWORD" = "Mot de passe";
+"KEY_FORGOT_PASSWORD" = "Mot de passe oublié»";
+
+//ForgotPasswordVC
+
+"KEY_SUBMIT" = "SUBMIT";
+
+//SelectCityVC
+"KEY_SELECT_CITY" = "SELECT CITY";
+"KEY_SEARCH_LOCATION" = "Recherche d'emplacement";
+"KEY_CONTINUE" = "CONTINUER";
+
+//SelectDateVC
+
+"KEY_SELECT_DATE" = "SELECT DATES";
+"KEY_ARRIVE" = "Arrive";
+"KEY_DEPART" = "Depart";
+
+//SelectInterestVC
+
+"KEY_SELECT_INTEREST" = "INTÉRÊT";
+"KEY_START_SEARCHING" = "Commencer la recherche";
+"KEY_SELECT_ATLEASET" = "Sélectionnez au moins trois";
+
+//Traveler.Storyboard
+
+//LooperDetailVC
+"KEY_ABOUTME" = "A PROPOS DE MOI";
+"KEY_LANGUAGES" = "LANGUES";
+"KEY_EXPERTISE" = "EXPERTISE";
+"KEY_INQUIRE" = "INQUIRE";
+"KEY_BOOK" = "LIVRE";
+"KEY_DAILY" = "TOUS LES JOURS";
+
+
+"KEY_HOW_BIG_PARTY" = "QUELLE EST VOTRE PARTI?";
+"KEY_CALL" = "CALL";
+"KEY_MESSAGE" = "MESSAGE";
+"KEY_VIEW_TRIP" = "VIEW TRIP";
+"KEY_DAY" = "JOUR";
+"KEY_PARTY_OF" = "PARTY DE";
+"KEY_CONFIRMED" = "VOUS CONFIRME!";
+
+
+
+//Looper.Storyboard
+
+"KEY_TRAVELER" = "Voyageur";
+"KEY_REQUEST" = "Demande";
+"KEY_HISTORY" = "Histoire";
